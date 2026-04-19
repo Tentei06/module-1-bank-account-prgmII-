@@ -2,7 +2,7 @@ public class CheckingAccount extends BankAccount
 {
     double interestRate;
 
-
+ // add @override in future itirations 
     public void processWithdrawal(double amount)
     {
         balance = balance - amount;
@@ -25,4 +25,5 @@ public class CheckingAccount extends BankAccount
         System.out.println("Interest Rate: " + interestRate);
 
     }
+
 }
