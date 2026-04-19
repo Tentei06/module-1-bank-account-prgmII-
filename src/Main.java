@@ -12,7 +12,7 @@ public class Main
 
         myAccount.deposit(500);
 
-        myAccount.processWithdrawal(600);
+        myAccount.processWithdrawal(200);
 
         myAccount.displayAccount();
         
